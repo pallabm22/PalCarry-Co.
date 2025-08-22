@@ -1,4 +1,4 @@
-<h1 align="center">🛒 ExpressMart</h1>
+<h1 align="center">🛒 PalCarry Co.</h1>
 
 <p align="center">
   A lightweight e-commerce web application built with <strong>Node.js, Express, MongoDB, and EJS</strong>.
@@ -22,9 +22,9 @@
 <ul>
   <li><strong>Backend:</strong> Node.js, Express.js</li>
   <li><strong>Frontend:</strong> EJS Templates, TailwindCSS</li>
-  <li><strong>Database:</strong> MongoDB (with Mongoose ORM)</li>
+  <li><strong>Database:</strong> MongoDB ODM (Object–Document Mapper)</li>
   <li><strong>Authentication:</strong> JWT & Middleware</li>
-  <li><strong>Notifications:</strong> Connect-flash + SweetAlert2</li>
+  <li><strong>Notifications:</strong> Connect-flash</li>
 </ul>
 
 <h2>🚀 Getting Started</h2>
@@ -37,7 +37,7 @@ cd expressmart
 
 <h3>2️⃣ Install Dependencies</h3>
 <pre>
-npm install
+npm init -y
 </pre>
 
 <h3>3️⃣ Setup Environment Variables</h3>
@@ -50,7 +50,8 @@ JWT_SECRET=your_secret_key
 
 <h3>4️⃣ Run the App</h3>
 <pre>
-npm start
+$env:NODE_ENV="development" 
+nodemon App.js
 </pre>
 
 Your app will be live at <a href="http://localhost:3000">http://localhost:3000</a> 🎉
