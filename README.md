@@ -31,13 +31,14 @@
 
 <h3>1️⃣ Clone the Repository</h3>
 <pre>
-git clone https://github.com/pallabm22/PalCarry-Co..git
-cd expressmart
+git clone https://github.com/pallabm22/PalCarry-Co.git
+cd PalCarry Co.
 </pre>
 
 <h3>2️⃣ Install Dependencies</h3>
 <pre>
 npm init -y
+npm i express mongoose bcrypt jsonwebtoken
 </pre>
 
 <h3>3️⃣ Setup Environment Variables</h3>
