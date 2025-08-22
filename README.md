@@ -1,4 +1,4 @@
-<h1 align="center">🛒 PalCarry Co.</h1>
+<h1 align="center">💼 PalCarry Co.</h1>
 
 <p align="center">
   A lightweight e-commerce web application built with <strong>Node.js, Express, MongoDB, and EJS</strong>.
@@ -31,7 +31,7 @@
 
 <h3>1️⃣ Clone the Repository</h3>
 <pre>
-git clone https://github.com/your-username/expressmart.git
+git clone https://github.com/pallabm22/PalCarry-Co..git
 cd expressmart
 </pre>
 
