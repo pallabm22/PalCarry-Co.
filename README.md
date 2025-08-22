@@ -32,7 +32,7 @@
 <h3>1️⃣ Clone the Repository</h3>
 <pre>
 git clone https://github.com/pallabm22/PalCarry-Co.git
-cd PalCarry Co.
+cd PalCarry-Co.
 </pre>
 
 <h3>2️⃣ Install Dependencies</h3>
