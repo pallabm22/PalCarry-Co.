@@ -1,0 +1,40 @@
+<%- include('./partials/header') %>
+<div class="w-full min-h-screen flex px-20 py-10 gap-10">
+  
+  <!-- Left side: Admin Login -->
+  <div class="w-1/2 flex items-center justify-center">
+    <div class="w-full max-w-md px-8 py-6 shadow-lg rounded-xl bg-white">
+      <h4 class="text-2xl font-semibold mb-5 text-center">Admin Access</h4>
+      <form action="/owner/login" method="post">
+        <input class="block bg-zinc-100 w-full px-3 py-2 border rounded-md mb-3" 
+               type="email" placeholder="Email" name="email" required>
+        <input class="block bg-zinc-100 w-full px-3 py-2 border rounded-md mb-3" 
+               type="password" placeholder="Password" name="password" required>
+        <button class="w-full px-5 rounded-md py-3 mt-2 bg-blue-500 hover:bg-blue-600 text-white font-medium">
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Right side: Owner Create -->
+  <div class="w-1/2 flex items-center justify-center">
+    <div class="w-full max-w-md px-8 py-6 shadow-lg rounded-xl bg-white">
+      <h4 class="text-2xl font-semibold mb-5 text-center">Create Owner (Dev)</h4>
+      <form action="/owner/create" method="post">
+        <input class="block bg-zinc-100 w-full px-3 py-2 border rounded-md mb-3"
+               type="text" placeholder="Full Name" name="fullname" required>
+        <input class="block bg-zinc-100 w-full px-3 py-2 border rounded-md mb-3"
+               type="email" placeholder="Email" name="email" required>
+        <input class="block bg-zinc-100 w-full px-3 py-2 border rounded-md mb-3"
+               type="password" placeholder="Password" name="password" required>
+        <input class="block bg-zinc-100 w-full px-3 py-2 border rounded-md mb-3"
+               type="text" placeholder="Contact" name="contact" required>
+        <button class="w-full px-5 rounded-md py-3 mt-2 bg-green-500 hover:bg-green-600 text-white font-medium">
+          Create Owner
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('./partials/footer') %>
